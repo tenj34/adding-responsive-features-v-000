@@ -63,5 +63,13 @@
     -webkit-column-count: 1;
     column-count: 1;
   }
+}
+@media only screen and (max-width: 700px){
+  #navbar nav a {
+    display: none;
+  }
 
+  #navbar nav a.menu-icon {
+
+  }
 }
